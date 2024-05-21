@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "mabelfont";
+  src: url('assets/mabelfont_blue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "mabelfont", sans-serif;
+  font-size: 16px; /* Set the font size */
+  line-height: 1.5;
+}
