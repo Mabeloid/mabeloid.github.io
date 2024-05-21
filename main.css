@@ -5,8 +5,52 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Jost";
+  src: url('assets/Jost-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url('assets/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
 body {
   font-family: "mabelfont", sans-serif;
   font-size: 16px; /* Set the font size */
   line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tabdesc {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  line-height: 0%;
+}
+
+.tab {
+  text-align: center;
+  width: 30%;
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
 }
