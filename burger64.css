@@ -16,6 +16,14 @@ body {
   font-size: 20px;
 }
 
+.b64_sign {
+  line-height: 1.5;
+  outline: 2px solid black;
+  background-color: white;
+  padding: 8px;
+  display: inline-block;
+}
+
 .b64_desc {
   float: left;
   height: auto;
@@ -27,14 +35,6 @@ body {
   width: 196px;
   margin-right: 15px;
   shape-margin: 15px;
-}
-
-.b64_sign {
-  line-height: 1.5;
-  outline: 2px solid black;
-  background-color: white;
-  padding: 8px;
-  display: inline-block;
 }
 
 .b64_imgs {

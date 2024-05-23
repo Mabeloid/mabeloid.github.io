@@ -22,7 +22,6 @@
 body {
   font-family: "mabelfont", sans-serif;
   font-size: 20px;
-  line-height: 1.5;
   
   min-height: 100vh;
   display: flex;
