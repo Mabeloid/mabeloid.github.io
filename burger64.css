@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "SM64";
+  src: url('assets/sm64-font/super-mario-64-extended.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-image: url('assets/b64bg.png');
   background-repeat: repeat;
@@ -17,12 +24,10 @@ body {
 }
 
 .b64_desc img {
-  width: 25%;
+  width: 196px;
   margin-right: 15px;
   shape-margin: 15px;
 }
-
-
 
 .b64_sign {
   line-height: 1.5;
@@ -32,18 +37,18 @@ body {
   display: inline-block;
 }
 
-.b64_tabs {
+.b64_imgs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.b64_tab {
+.b64_img {
   text-align: center;
   padding: 10px;
 }
 
-.b64_tab img {
+.b64_img img {
   height: 200px;
   width: auto;
   outline: 2px solid black;

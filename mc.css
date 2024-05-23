@@ -1,6 +1,22 @@
 body {
-  /* background-color: blue; */
   background-image: url('assets/mcbg.png');
   background-repeat: repeat;
   background-size: 150px 150px;
+}
+
+.mc_desc {
+  float: left;
+  height: auto;
+  position: relative;
+  margin: 10px;
+  align-items: center;
+}
+
+.mc_desc img {
+  height: 512px;
+  margin-right: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
