@@ -1,6 +1,5 @@
 body {
-  /* background-color: blue; */
-  background-image: url('assets/sh.png');
+  background-image: url('assets/index_bg.png');
   background-repeat: repeat;
   background-size: 150px 150px;
 }

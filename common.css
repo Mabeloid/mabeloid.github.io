@@ -22,7 +22,7 @@
 body {
   font-family: "mabelfont", sans-serif;
   font-size: 20px;
-  
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,22 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_bottom img {
+  margin: 10px;
+  height: 20px;
+
 }
 
 .tabdesc {
@@ -58,8 +74,4 @@ h2 {
   font-size: min(24px, 3vw);
   font-family: "Jost", sans-serif;
   font-weight: bolder;
-}
-
-footer {
-  margin-top: auto;
 }
