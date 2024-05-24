@@ -41,20 +41,7 @@ footer {
   margin-top: auto;
 }
 
-.footer_bottom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer_bottom img {
-  margin: 10px;
-  height: 20px;
-
-}
-
-.tabdesc {
-  line-height: 150%;
+.proj_desc {
   text-align: center;
   font-size: 300%;
   font-weight: bolder;
@@ -62,16 +49,32 @@ footer {
 
 }
 
-.tabs {
+.proj_tabs {
   display: flex;
   justify-content: center;
-  line-height: 0%;
 }
 
-.tab {
+.proj_tab {
   text-align: center;
   width: 50%;
-  font-size: min(24px, 3vw);
+  line-height: 100%;
+  font-size: min(20px, 3vw);
   font-family: "Jost", sans-serif;
   font-weight: bolder;
+}
+
+.proj_tab img {
+  width: 96px;
+}
+
+.footer_bottom {
+  font-size: min(20px, 3vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_bottom img {
+  margin: 10px;
+  height: min(20px, 3vw);
 }
