@@ -52,5 +52,10 @@ body {
   height: 200px;
   width: auto;
   outline: 2px solid black;
+}
 
+.b64_img iframe {
+  height: 200px;
+  width: 356px;
+  outline: 2px solid black;
 }
