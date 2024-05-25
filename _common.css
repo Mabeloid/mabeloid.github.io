@@ -19,6 +19,14 @@
   font-style: italic;
 }
 
+
+@font-face {
+  font-family: "comic mono";
+  src: url('assets/comicmono/ComicMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "mabelfont", sans-serif;
   font-size: 20px;
@@ -35,6 +43,15 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+code {font-family: "comic mono", sans-serif;
+  font-size: 16px;
 }
 
 footer {

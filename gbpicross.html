@@ -5,13 +5,22 @@
     <title>Mabeloid website</title>
     <link rel="icon" type="image/x-icon" href="_favicon.png">
     <link rel="stylesheet" href="_common.css">
-    <link rel="stylesheet" href="mariochordle.css">
+    <link rel="stylesheet" href="gbpicross.css">
 
+    <!-- for discord -->
     <meta content="Mabeloid Website" property="og:title" />
     <meta content="website for mabel mabeloid" property="og:description" />
     <meta content="https://mabeloid.github.io/assets/embed.png" property="og:image" />
     <meta content="https://mabeloid.github.io/" property="og:url" />
     <meta content="#51BEEA" data-react-helmet="true" name="theme-color" />
+
+    <!-- for twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mabeloid Website">
+    <meta name="twitter:description" content="website for mabel mabeloid">
+    <meta name="twitter:image" content="https://mabeloid.github.io/assets/embed.png">
+    <meta name="twitter:site" content="@Mabeloid">
+    <meta name="twitter:creator" content="@mabel0id">
 </head>
 
 <header>
@@ -21,26 +30,36 @@
 </header>
 
 <body>
-    <div class="mc_desc">
-        <img src="assets/mc_screenshot.png" alt="Mario Chordle screenshot" style="float: left;">
 
-        <p>
-            Mario Chordle is a Wordle-like game based on
-            <a href="https://mario-heardle.glitch.me/">Mario Heardle</a>
-            by NinjiGalaxy.
-        </p>
-        <p>
-            Listening to just the chords from a section of a song from a Mario game,
-            you have 6 guesses with hints to find the right game and song
-        </p>
-    </div>
-
-    <h1>
-        <a href="https://discord.com/oauth2/authorize?client_id=1203492670530396160">Invite the bot</a>
-        or
-        <a href="discord.gg/cSBxv4c5W6">join the server</a>
-    </h1>
-
+    <p>ninjigalaxy sent me an explanation of how picross boards are stored in mario's picross' rom
+        and commissioned me to make a tool to inject custom ones</p>
+    <img src="assets/picross_ss.png" alt="Screenshot of replacing a board"
+    style="float: left;" width="512px">
+    <p>after i made that i wanted to figure out how to replace the text and
+        i've been moderately successful at it</p>
+    <p>the download contains three scripts:</p>
+    <ul>
+        <li>
+            <code>picross_board_main.py</code>
+            replaces a board in the ROM with a new board
+            from a text file or small image
+        </li>
+        <li>
+            <code>picross_dump_text_main.py</code>
+            dumps dialogue and puzzle names to editable text files
+        </li>
+        <li>
+            <code>picross_replace_text_main.py</code>
+            lets you replace dialogue or puzzle names
+            with a file dumped by the abovementioned script
+        </li>
+        <a href="https://youtu.be/dQw4w9WgXcQ">
+            <h1>todo: add download link</h1>
+        </a>
+        <h3>don't use the default python program to run it,
+            as it will suddenly close when an error occurs
+            instead of letting you read it!</h3>
+    </ul>
 </body>
 
 <footer>
@@ -92,3 +111,5 @@
         <a href="https://www.tumblr.com/mabeloid/">@mabeloid</a>
     </div>
 </footer>
+
+</html>
