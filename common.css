@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "mabelfont";
+  src: url('assets/mabelfont_blue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url('assets/Jost-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url('assets/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "comic mono";
+  src: url('assets/comicmono/ComicMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "mabelfont", sans-serif;
+  font-size: 20px;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+code {font-family: "comic mono", sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.proj_desc {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+
+}
+
+.proj_tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.proj_tab {
+  text-align: center;
+  width: 50%;
+  line-height: 100%;
+  font-size: min(20px, 3vw);
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
+}
+
+.proj_tab img {
+  width: 96px;
+}
+
+.footer_bottom {
+  font-size: min(20px, 3vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_bottom img {
+  margin: 10px;
+  height: min(20px, 3vw);
+}
