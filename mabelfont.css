@@ -1,0 +1,23 @@
+body {
+  background-image: url('assets/mfbg.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+}
+
+
+.mf_imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mf_img {
+  text-align: center;
+  padding: 10px;
+}
+
+.mf_img img {
+  height: 100px;
+  width: auto;
+  outline: 2px solid black;
+}
