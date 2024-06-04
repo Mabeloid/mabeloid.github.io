@@ -1,13 +1,33 @@
 body {
-  background-color:azure;
+  background-color: azure;
 }
 
+sh_img {
+  width: 10px;
+}
 
-table, th, td {
+sh_name {
+  float: left;
+  text-align: center;
+}
+
+sh_desc {
+  text-align: left;
+}
+
+sh_sym {
+  float: left;
+  text-align: center;
+}
+
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
 }
+
 th {
   background-color: #f2f2f2;
 }
