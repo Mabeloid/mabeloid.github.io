@@ -4,6 +4,7 @@ body {
 
 sh_img img {
   width: 128px;
+  border: 1px solid black;
 }
 
 sh_name {
