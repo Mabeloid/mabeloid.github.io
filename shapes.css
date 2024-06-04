@@ -2,8 +2,8 @@ body {
   background-color: azure;
 }
 
-sh_img {
-  width: 10px;
+sh_img img {
+  width: 128px;
 }
 
 sh_name {
