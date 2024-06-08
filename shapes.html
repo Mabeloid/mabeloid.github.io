@@ -31,8 +31,10 @@
 
 
 <body>
-    <p>shapes</p>
+    <p>shapes!</p>
     <h1> Dual Pairs of 3D Surfaces</h1>
+
+    <h2>capsules/biconics, anticapsules/lemonoids</h2>
     <table>
         <thead>
             <tr>
@@ -192,6 +194,29 @@
                     <sh_name>Anticapsule (a&gt;2r)</sh_name>
                 </td>
             </tr>
+        </tbody>
+    </table>
+
+    <h2>torii/torets</h2>
+    <p>torii are surfaces of revolution
+        made from circles whose centers are offset from the
+        center of reciprocation against the axis that the
+        shape isn't being revolved around
+    </p>
+    <p>
+        their duals are then a surface of revolution of a
+        conic that has a/its focus at the center of reciprocation
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image + Name</th>
+                <th>Description</th>
+                <th>Symmetry</th>
+                <th>Dual</th>
+            </tr>
+        </thead>
+        <tbody>
             <!-- torii -->
             <tr>
                 <td>
@@ -200,8 +225,7 @@
                 </td>
                 <td>
                     <sh_desc>
-                        A surface of revoluion of a
-                        very offset circle
+                        A torus where R&gt;r
                     </sh_desc>
                 </td>
                 <td>
@@ -209,7 +233,7 @@
                 </td>
                 <td>
                     <sh_img><img src="assets/shapes/ring parabolet.png"></sh_img>
-                    <sh_name>Hyperbolet (Toret)</sh_name>
+                    <sh_name>Hyperbolet</sh_name>
                 </td>
             </tr>
             <tr>
@@ -218,15 +242,16 @@
                     <sh_name>Horn Torus</sh_name>
                 </td>
                 <td>
-                    <sh_desc>A surface of revoluion of a
-                        precisely offset circle</sh_desc>
+                    <sh_desc>
+                        A torus where R=r
+                    </sh_desc>
                 </td>
                 <td>
                     <sh_sym>D<sub>∞</sub></sh_sym>
                 </td>
                 <td>
                     <sh_img><img src="assets/shapes/horn parabolet.png"></sh_img>
-                    <sh_name>Parabolet (Toret)</sh_name>
+                    <sh_name>Parabolet</sh_name>
                 </td>
             </tr>
             <tr>
@@ -235,10 +260,7 @@
                     <sh_name>Spindle Torus</sh_name>
                 </td>
                 <td>
-                    <sh_desc>
-                        Surface of revolution of
-                        a slightly offset circle
-                    </sh_desc>
+                    <sh_desc>A torus where R&lt;r</sh_desc>
                     <br>
                     <sh_desc>
                         Always topologically self-dual,
@@ -251,7 +273,7 @@
                 </td>
                 <td>
                     <sh_img><img src="assets/shapes/spindle torus 2.png"></sh_img>
-                    <sh_name>Elliptical Spindle Torus (Toret)</sh_name>
+                    <sh_name>Elliptical Spindle Torus</sh_name>
                 </td>
             </tr>
             <tr>
@@ -270,7 +292,12 @@
                         This turns the locally convex but
                         globally self-intersecting surface
                         into a non-intersecting surface
-                        with two concavities
+                        with two concave pole points
+                    </sh_desc>
+                    <br>
+                    <sh_desc>
+                        The dual is a surface of revolution of
+                        a semiellipse (stretched semicircle)
                     </sh_desc>
                 </td>
                 <td>
@@ -281,6 +308,38 @@
                     <sh_name>Spindlet</sh_name>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <sh_img><img src="assets/wip.png"></sh_img>
+                    <sh_name>Single-sheeted Hyperboloid</sh_name>
+                </td>
+                <td>
+                    <sh_desc>
+                        A hyperbolet with one of the sheets removed
+                    </sh_desc>
+                </td>
+                <td>
+                    <sh_sym>D<sub>∞</sub></sh_sym>
+                </td>
+                <td>
+                    <sh_img><img src="assets/wip.png"></sh_img>
+                    <sh_name>Semicircular Torus?</sh_name>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>steinmetz-like shapes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Image + Name</th>
+                <th>Description</th>
+                <th>Symmetry</th>
+                <th>Dual</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>
                     <sh_img><img src="assets/shapes/bimarengue.png"></sh_img>
@@ -340,11 +399,13 @@
                 </td>
                 <td>
                     <sh_desc>
-                        The convex core of three cylinders aligned cubically
+                        The convex core of three cylinders whose axes
+                        are aligned with the faces of a cube
                     </sh_desc>
                     <br>
                     <sh_desc>
-                        The dual is the convex hull of three circles aligned cubically
+                        The dual is the convex hull of three circles whose
+                        normal vectors are aligned with the faces of a cube
                     </sh_desc>
                 </td>
                 <td>
@@ -352,9 +413,71 @@
                 </td>
                 <td>
                     <sh_img><img src="assets/shapes/steinmetz 2 dual.png"></sh_img>
-                    <sh_name>-</sh_name>
+                    <sh_name>Tetratetrahedral Marenguoid</sh_name>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <sh_img><img src="assets/wip.png"></sh_img>
+                    <sh_name>Cuboctahedral Steinmetzoid</sh_name>
+                </td>
+                <td>
+                    <sh_desc>
+                    </sh_desc>
+                    <br>
+                </td>
+                <td>
+                    <sh_sym>O<sub>h</sub></sh_sym>
+                </td>
+                <td>
+                    <sh_img><img src="assets/wip.png"></sh_img>
+                    <sh_name>Cuboctahedral Marenguoid</sh_name>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <sh_img><img src="assets/shapes/steinmetz 4.png"></sh_img>
+                    <sh_name>Icosidodecahedral Steinmetzoid</sh_name>
+                </td>
+                <td>
+                    <sh_desc>
+                    </sh_desc>
+                    <br>
+                </td>
+                <td>
+                    <sh_sym>I<sub>h</sub></sh_sym>
+                </td>
+                <td>
+                    <sh_img><img src="assets/shapes/steinmetz 4 dual.png"></sh_img>
+                    <sh_name>Icosidodecahedral Marenguoid</sh_name>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>spheres</h2>
+    <p>these are spheres whose center is shifted
+        away form the center of reciprocation
+    </p>
+    <p>because of symmetry, this can be thought of as
+        the surfaces of revolution of a circle whose
+        center is shifted away from the center of
+        reciprocation along the axis of revolution
+    </p>
+    <p>this produces duals that are a surface of
+        revolution of a conic that has a/its focus at the
+        center of reciprocation
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image + Name</th>
+                <th>Description</th>
+                <th>Symmetry</th>
+                <th>Dual</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>
                     <sh_img><img src="assets/shapes/sphere.png"></sh_img>
@@ -398,7 +521,8 @@
                 </td>
                 <td>
                     <sh_desc>
-                        Center of reciprocation is on the boundary of the sphere
+                        Center of reciprocation is on the
+                        boundary of the sphere
                     </sh_desc>
                 </td>
                 <td>

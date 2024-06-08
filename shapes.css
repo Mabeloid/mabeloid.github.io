@@ -1,5 +1,8 @@
 body {
-  background-color: azure;
+  background-image: url('assets/shapesbg.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100vh 100vw;
 }
 
 sh_img img {
