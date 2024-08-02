@@ -3,3 +3,17 @@ body {
   background-repeat: repeat;
   background-size: 150px 150px;
 }
+
+ul {
+  list-style-type: square;
+  color: #9b2a2a;
+}
+
+li::marker {
+  font-size: 2em;
+  color: #9b2a2a;
+}
+
+.gameicon {
+  height: 3em;
+}
