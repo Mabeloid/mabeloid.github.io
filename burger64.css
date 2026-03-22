@@ -1,19 +1,19 @@
 @font-face {
   font-family: "SM64";
-  src: url('assets/sm64-font/super-mario-64-extended.otf') format('opentype');
+  src: url('assets/burger64/sm64-font/super-mario-64-extended.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  background-image: url('assets/b64bg.png');
+  background-image: url('assets/burger64/b64bg.png');
   background-repeat: repeat;
   background-size: 150px 150px;
 }
 
 body {
   font-family: "SM64", sans-serif;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .b64_sign {
@@ -58,4 +58,16 @@ body {
   height: 200px;
   width: 355.56px;
   outline: 2px solid black;
+}
+
+.b64_ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.b64_ribbon img {
+  height: 256px;
+  width: auto;
 }
