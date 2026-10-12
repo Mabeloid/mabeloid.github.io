@@ -427,7 +427,7 @@ function getEmojiPath(base) {
 
 function getEmojiImgHTML(emoji) {
     if (emojiStyle == "text") return emoji
-    const char = { "➡️": "d", "✅": "o", "⬅️": "a", "❌": "x", "❔": "q", "🟨": "-", "⬜": "_" }[emoji]
+    const char = { "➡️": "d", "✅": "o", "⬅️": "a", "❌": "x", "❔": "q", "🟨": "-", "⬜": "n" }[emoji]
     return `<img src="${getEmojiPath(char)}"></img>`
 
 }
