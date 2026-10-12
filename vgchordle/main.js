@@ -83,10 +83,10 @@ const gameContainer = document.getElementById("gamecontainer");
 const songTB = document.getElementById("searchsong");
 const songContainer = document.getElementById("songcontainer");
 // footer elements
-const playButton = document.getElementById('playButton');
+// const playButton = document.getElementById('playButton');
 const audioPlayer = document.getElementById('audioPlayer');
-const volumeSlider = document.getElementById('volumeSlider');
-volumeSlider.value = 0.5;
+// const volumeSlider = document.getElementById('volumeSlider');
+// volumeSlider.value = 0.5;
 // settings elements
 const settingsBox = document.getElementById('settingsbox');
 const sBoxFileInput = document.createElement('input')
@@ -115,6 +115,7 @@ const BGCount = 19;
 const random_i = Math.floor(Math.random() * BGCount)
 document.body.style.backgroundImage = `url('bg/${String(random_i).padStart(4, "0")}.png')`;
 
+let loadedSongID = undefined;
 let activeNavBox = undefined;
 
 function switchNavBox(navBox) {
@@ -275,9 +276,9 @@ copyEmojisButton.addEventListener("click", async function () {
     alert("emojis have been copied to clipboard!")
 })
 
-volumeSlider.addEventListener("input", function (event) {
-    audioPlayer.volume = event.target.value;
-})
+// volumeSlider.addEventListener("input", function (event) {
+//     audioPlayer.volume = event.target.value;
+// })
 
 // variables for specific day
 let correctSong = false
@@ -321,7 +322,6 @@ function saveTodayProgress() {
     localStorage.setItem("unlockedLogos", JSON.stringify(unlockedLogos))
 }
 
-
 // textbox.addEventListener("focus", function () { console.log("Textbox focused"); });
 // textbox.addEventListener("blur", function () { console.log("Textbox lost focus"); });
 
@@ -352,12 +352,20 @@ function clickGameSugg(e) {
 }
 gameContainer.addEventListener("click", clickGameSugg);
 
-
 function updateSearchSong() {
+    loadedSongID = undefined;
     let foundSongs = searchSongs(filteredGames, songTB.value, songData)
     displaySongSuggestions(foundSongs);
 }
-songTB.addEventListener("input", updateSearchSong);
+
+songTB.addEventListener("input", updateSearchSong)
+songTB.addEventListener("keydown", function (e) {
+    if (e.key === "Enter"){
+        if (songContainer.childNodes.length == 1)
+            loadedSongID = songContainer.childNodes[0].id
+        guessSong(loadedSongID)
+    }
+});
 
 function displaySongSuggestions(foundSongs) {
     if (!foundSongs.length || correctGame || userLost) { songContainer.innerHTML = ""; return }
@@ -371,13 +379,16 @@ function displaySongSuggestions(foundSongs) {
 
 function clickSongSugg(e) {
     if (!e.target.classList.contains("songsuggestion")) return
-    songTB.value = ""
-    guessSong(e.target.id)
+    updateSearchSong()
+    loadedSongID = e.target.id
+    songTB.value = e.target.textContent
+    // guessSong(e.target.id)
 }
 
 songContainer.addEventListener("click", clickSongSugg);
 
 function guessSong(guessedID) {
+    if (guessedID === undefined) return;
     madeGuesses.push(guessedID)
     const guessedSong = songData[guessedID]
     const guessedGame = gameData[guessedSong.game]
@@ -403,6 +414,7 @@ function guessSong(guessedID) {
 
     updateEmojis()
     updateSearchGame()
+    updateSearchSong()
     updateAudio()
 
     saveTodayProgress()
@@ -415,21 +427,44 @@ function getEmojiPath(base) {
 
 function getEmojiImgHTML(emoji) {
     if (emojiStyle == "text") return emoji
-    const char = { "➡️": "d", "✅": "o", "⬅️": "a", "❌": "x", "❔": "q", "🟨": "-" }[emoji]
+    const char = { "➡️": "d", "✅": "o", "⬅️": "a", "❌": "x", "❔": "q", "🟨": "-", "⬜": "_" }[emoji]
     return `<img src="${getEmojiPath(char)}"></img>`
 
 }
 
 function updateEmojis() {
-    let html = guessesDisplay.map(fields => {
-        let emojis = ["year", "platforms", "series", "genres"].map(f =>
-            `<div class="oneemoji" id=${f}>${getEmojiImgHTML(fields[f].emoji)}` +
-            `<span class="emojihover">${fields[f].str}</span></div>`).join("")
-        return `<div class="emojis">${emojis}</div>`
-    })
-    divEmojis.innerHTML = html.join("")
+    divEmojis.innerHTML = ""
+    for (let i = 0; i <= 6; i++) {
+        const row = document.createElement("div")
+        const rowFieldName = document.createElement("div")
+        const rowFieldYear = document.createElement("div")
+        const rowFieldPlatforms = document.createElement("div")
+        const rowFieldSeries = document.createElement("div")
+        const rowFieldGenres = document.createElement("div")
+        const rowFields = [rowFieldYear, rowFieldPlatforms, rowFieldSeries, rowFieldGenres]
+
+        const fieldnames = ["year", "platforms", "series", "genres"];
+        fieldnames.forEach(function (f, j) {
+            const rowField = rowFields[j]
+            rowField.className = "oneemoji"
+            rowField.id = f
+            if (i >= guessesDisplay.length)
+                return rowField.innerHTML = getEmojiImgHTML("⬜");
+
+            rowFieldName.textContent = songData[madeGuesses[i]].fullname;
+            const fields = guessesDisplay[i];
+            rowField.innerHTML = getEmojiImgHTML(fields[f].emoji)
+            const emojiHover = document.createElement("span")
+            emojiHover.className = "emojihover"
+            emojiHover.textContent = fields[f].str
+            rowField.appendChild(emojiHover)
+        })
+
+        row.appendChild(rowFieldName)
+        rowFields.forEach(node => row.appendChild(node))
+        divEmojis.appendChild(row)
+    }
     if (gameOver()) {
-        //copyemojis
         divEmojis.appendChild(copyEmojisButton)
     }
 
@@ -459,26 +494,26 @@ function emojiOnMobile() {
     })
 }
 
-function startAudio() {
-    audioPlayer.currentTime = 0
-    audioPlayer.play()
-    playButton.textContent = "■";
-}
-function stopAudio() {
-    audioPlayer.pause()
-    audioPlayer.currentTime = 0
-    playButton.textContent = "▷";
-}
-audioPlayer.addEventListener("ended", stopAudio)
-playButton.addEventListener('click', function () {
-    const isStopped = playButton.textContent == "▷"
-    isStopped ? startAudio() : stopAudio()
-})
+// function startAudio() {
+//     audioPlayer.currentTime = 0
+//     audioPlayer.play()
+//     playButton.textContent = "■";
+// }
+// function stopAudio() {
+//     audioPlayer.pause()
+//     audioPlayer.currentTime = 0
+//     playButton.textContent = "▷";
+// }
+// audioPlayer.addEventListener("ended", stopAudio)
+// playButton.addEventListener('click', function () {
+//     const isStopped = playButton.textContent == "▷"
+//     isStopped ? startAudio() : stopAudio()
+// })
 function updateAudio() {
-    stopAudio()
+    // stopAudio()
     const filenum = gameOver() ? "m" : todaysSong.numbers[guessesDisplay.length]
     audioPlayer.src = `audio/${todaysID} ${filenum}.mp3`
-    audioPlayer.volume = volumeSlider.value
+    // audioPlayer.volume = volumeSlider.value
 }
 function gameOver() { return guessesDisplay.length > 6 || correctGame || userLost }
 
