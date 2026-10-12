@@ -31,13 +31,12 @@ export function compareSongs(todaysGame, guessedGame) {
         let val
         if (intersection.length == todaysGame[f].length) val = 2
         else if (intersection.length < todaysGame[f].length) val = 1
-        else if (intersection.length == 0) val = 0
-        else val = 0
+        else val = 0 // (intersection.length == 0)
 
         const capitalized = f[0].toUpperCase() + f.slice(1)
         const str = [
             `${capitalized}: None in common...`,
-            `${capitalized}: ${interStr} is correct!`,
+            `${capitalized}: ${interStr} is partially correct!`,
             `${capitalized}: ${interStr} is correct!`,
         ][val]
         fields[f] = { val: val, emoji: ["❌", "🟨", "✅"][val], str: str }

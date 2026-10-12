@@ -86,7 +86,7 @@ const songContainer = document.getElementById("songcontainer");
 const playButton = document.getElementById('playButton');
 const audioPlayer = document.getElementById('audioPlayer');
 const volumeSlider = document.getElementById('volumeSlider');
-volumeSlider.value = 0.1
+volumeSlider.value = 0.5;
 // settings elements
 const settingsBox = document.getElementById('settingsbox');
 const sBoxFileInput = document.createElement('input')
@@ -215,14 +215,17 @@ navInfo.onclick = () => {
         const label = document.createElement("h5");
         label.textContent = "INFO"
         const text = document.createElement("p");
-        text.innerHTML = [
+        const lines = [
             "Hi! Welcome to VG Chordle!",
             "It's a daily 'dle where every day there's a chords-only piano rendition of a video game song.",
             "Using your brain's pattern recognition (and hot-or-cold hints), you're set to determine what the game is.",
             "There's also an extra reward if you guess the right song from the game!",
             "",
             "Big thanks to Frep for helping me with the website, as well as the supporters of the original Mario Chordle.",
-        ].join("<br>")
+        ]
+        if (gameOver()) lines.push("", "(this is where the trascription gets credited but that's not implemented yet)")
+        else lines.push("", "(this is where the trascription gets credited but you have guesses left and also it's not implemented yet)")
+        text.innerHTML = lines.join("<br>")
 
         infoBox.appendChild(label)
         infoBox.appendChild(text)
