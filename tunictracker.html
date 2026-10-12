@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mabeloid website</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="tunictracker.css">
+
+    <meta content="Mabeloid Website" property="og:title" />
+    <meta content="witness the wonders of mysterious glyphs and sigils..." property="og:description" />
+    <meta content="https://mabeloid.github.io/assets/embed.jpg" property="og:image" />
+    <meta content="https://mabeloid.github.io/" property="og:url" />
+    <meta content="#51BEEA" data-react-helmet="true" name="theme-color" />
+</head>
+
+<header>
+    <a href="/" style="text-decoration: none">
+        <h1>Mabeloid Website</h2>
+    </a>
+</header>
+
+<body>
+    <div class="warning">
+        <h2>warning!</h2>
+        <p>there's not really any spoilers for the game itself but deciphering the language itself is very fulfilling so
+            you should absolutely try to do so before giving up and looking it up</p>
+        <p>you can do it, mabel believes in you</p>
+    </div>
+
+    <p>it's finally here! mysterious glyphs and sigils</p>
+    <p>the tunic archipelago tracker is a discord bot that logs into a slot and sends a discord message that pings you
+        whenever you get a (non-filler) item (from someone other than yourself)</p>
+
+
+    <div class="tunictracker_imgs">
+        <div class="tunictracker_img">
+            <img src="assets/tunictracker/messages1.png"
+                alt="discord screenshot of the bot pinging me in five messages">
+        </div>
+        <div class="tunictracker_img">
+            <img src="assets/tunictracker/messages2.png"
+                alt="discord screenshot of the bot pinging me in four more messages">
+        </div>
+    </div>
+
+    <p>basically i already made a tunic text renderer in 2025 and i thought it would be funny to use it to make a
+        tracker where everything is incomprehensible</p>
+    <p>there are other tunic renderers online <a href="https://aryanpingle.com/Runic/">[1]</a> <a
+            href="https://ruinseeker.cerberus-heuristics.com/">[2]</a> but this one can <span class="redacted"
+            tabindex="0">convert any english text input</span> thanks to a library
+        meant for <span class="redacted"
+            tabindex="0">text-to-speech</span> that includes "<span class="redacted"
+            tabindex="0">a pre-trained grapheme-to-phoneme model for guessing word
+        pronunciations</span>"</p>
+
+    <h2>how it works</h2>
+    <ul>
+        <li>the main bot uses discord.py</li>
+        <li>it also starts a subprocess that uses <span class="redacted" tabindex="0"><a
+                    href="https://archipelago.js.org/stable/">archipelago.js</a> to connect to the archipelago server
+        </li>
+        <li>whenever you get a good item, the javascript file writes the data about it to a json file in a folder</li>
+        <li>at the same time, the bot checks the folder for new files every second</li>
+        <li>each text part gets split into runs of symbols/numbers (rendered with liberation serif) and alphabetic text
+            to be tunicified</li>
+        <li> it uses <span class="redacted" tabindex="0"><span class="redacted" tabindex="0"><a
+                        href="https://github.com/rhasspy/gruut">gruut</a> to transcribe each section of text into
+                    IPA</span> </li>
+        <li> it does some processing to turn every <span class="redacted" tabindex="0">vowel + /r/</span> into <span
+                class="redacted" tabindex="0">the corresponding rhoticized
+                vowel</span> and stuff like that and then the
+            <span class="redacted" tabindex="0">phonemes</span> get <span class="redacted" tabindex="0">grouped into
+                consonant + vowel pairs</span> in typical tunic
+            fashion
+        </li>
+        <li>each rune gets rendered with Pillow (line for the lines, circle for the round ends and the ring)</li>
+        <li>and then it sends it as a discord attachment with a ping</li>
+    </ul>
+
+</body>
+
+<script>document.querySelectorAll('.redacted').forEach(el => { el.addEventListener('click', () => { el.classList.toggle('revealed') }) })</script>
+
+<footer>
+    <div class="proj_desc">Projects</div>
+    <div class="proj_tabs">
+        <div class="proj_tab">
+            <a href="burger64">
+                <img src="assets/projicons/burger64.png" alt="Burger 64 icon">
+                <p>Burger 64 ROM Hack</p>
+            </a>
+        </div>
+        <div class="proj_tab">
+            <a href="discordbots">
+                <img src="assets/projicons/logo_discord.png" alt="Discord icon">
+                <p>Discord Bots</p>
+            </a>
+        </div>
+        <div class="proj_tab">
+            <a href="mabelfont">
+                <img src="assets/projicons/mabelfont.png" alt="Mabelfont icon">
+                <p>Mabelfont</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="proj_tabs">
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Mabel MMO icon">
+            <p>Video games i like</p>
+        </div>
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Mabel MMO icon">
+            <p>TUNIC Archipelago tracker</p>
+        </div>
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Mabel MMO icon">
+            <p>Sporcle quizzes</p>
+        </div>
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Mabel MMO icon">
+            <p>The Frankenpiler</p>
+        </div>
+    </div>
+
+    <div class="proj_desc2">Projects (abandoned)</div>
+
+    <div class="proj_tabs">
+        <div class="proj_tab">
+            <a href="mariochordle">
+                <img src="assets/projicons/mariochordle.png" alt="Mario Chordle icon">
+                <p>Mario Chordle</p>
+            </a>
+        </div>
+        <div class="proj_tab">
+            <a href="gbpicross">
+                <img src="assets/projicons/picross.png" alt="Picross board icon">
+                <p>Mario Picross GB ROM Hack Tool</p>
+            </a>
+        </div>
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Mabel MMO icon">
+            <p>Mabel MMO</p>
+        </div>
+        <div class="proj_tab">
+            <img src="assets/projicons/wip.png" alt="Cube game icon">
+            <p>Cube Game</p>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        2024 - 20XX mabel mabeloid •
+        <img src="assets/logo_bsky.png" alt="Bluesky icon">
+        <a href="https://bsky.app/profile/mabeloid.bsky.social">@mabeloid.bsky.social</a>
+    </div>
+</footer>
+
+<p>last updated: 2026/??/??</p>
+
+</html>

@@ -1,0 +1,398 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.navbar_ico {
+  cursor: pointer;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 2em;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.navbar_ico:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.vgclogo {
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.vgclogo img {
+  display: block;
+  margin: auto;
+  height: 5em;
+}
+
+.logoSelecter {
+  background-color: #333;
+  height: 5em;
+}
+
+.logogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body {
+  background-color: #171717;
+  background-repeat: repeat;
+  background-size: 300px 200px;
+
+  font-family: "Poppins";
+
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  margin-top: 4em;
+  padding: 0;
+}
+
+.box {
+  line-height: 1.5;
+  outline: 2px solid black;
+  background-color: white;
+  padding: 1em;
+  display: grid;
+  place-items: center;
+  width: max-content;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+.navbox-hidden {
+  display: none;
+  z-index: 100;
+  position: fixed;
+  top: 110px;
+  /* should probably be adjusted to be like the header size */
+  right: 10px;
+}
+
+/* game and song boxes and autofills */
+
+.searchboxes_container {
+  display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  .searchboxes_container {
+    flex-direction: column;
+  }
+}
+
+#gamecontainer,
+#songcontainer {
+  border: 2px solid #000;
+  border-right: none;
+  background-color: #7baae4;
+  height: 150px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.gamesuggestion mark,
+.songsuggestion mark {
+  background-color: rgb(56, 131, 228);
+}
+
+.gamesuggestion:hover,
+.songsuggestion:hover {
+  background-color: #11f78f;
+  cursor: pointer;
+}
+
+.gamesuggestion:hover mark,
+.songsuggestion:hover mark {
+  background-color: rgb(34, 183, 91);
+  pointer-events: none;
+}
+
+.gamediv,
+.songdiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#searchgame,
+#searchsong {
+  border: 2px solid #000;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+}
+
+/* emojis that tell you how right or wrong you are */
+
+.emojis {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.oneemoji {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding-left: 0.0625em;
+  padding-right: 0.0625em;
+}
+
+.oneemoji img {
+  height: 1em;
+  image-rendering: pixelated;
+}
+
+.emojihover {
+  visibility: hidden;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  max-width: 25em;
+  text-wrap: true;
+  /* TODO: use the right keyword to make the text wrap */
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  font-size: 0.375em;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 67;
+}
+
+.emojihover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.5em;
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.oneemoji:hover .emojihover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.oneemoji.active .emojihover {
+  visibility: visible;
+  opacity: 1;
+}
+
+#footer {
+  flex-shrink: 0;
+  background-color: #443dcb;
+  padding: 20px;
+  text-align: center;
+
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer .playButton {
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+/* css for the button that clears localStorage */
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.buttonthatclearslocalstorage {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+
+  font-size: 2em;
+  font-family: "Pinyon Script";
+  font-weight: bolder;
+}
+
+/* magenta slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #ff00ff;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}

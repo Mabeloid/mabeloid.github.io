@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>VG Chordle</title>
+
+    <!-- for ios -->
+    <link rel="icon" type="image/x-icon" sizes="340x340" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="340x340" href="icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- for discord -->
+    <meta content="VG Chordle" property="og:title" />
+    <meta content="vg chordle! in beta" property="og:description" />
+    <meta content="https://mabeloid.github.io/assets/embed.png" property="og:image" />
+    <meta content="https://mabeloid.github.io/" property="og:url" />
+    <meta content="#51BEEA" data-react-helmet="true" name="theme-color" />
+
+    <!-- page css formatting -->
+    <script type="module" src="main.js">
+        window.onload = function () {
+            document.getElementById('gamecontainer').value = '';
+            document.getElementById('songcontainer').value = '';
+        };
+    </script>
+    <link rel="stylesheet" href="main.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="navbar">
+        <div class="vgclogo" id="vgclogo"></div>
+        &emsp;&emsp;&emsp;
+
+        <div class="navbar_ico" id="navlogostyle">🖌️</div>
+        <div class="navbar_ico" id="navsettings">⚙</div>
+        <div class="navbar_ico" id="navstats">📊</div>
+        <div class="navbar_ico" id="navinfo">🛈</div>
+    </div>
+</header>
+
+<body>
+    <p>
+        <!-- TODO: make these boxes pop up over the screen when corresponding navbar buttons are pressed,
+        make it so clicking outside the box closes the box -->
+    <div class="box navbox-hidden" id="logostylebox"></div>
+    <div class="box navbox-hidden" id="settingsbox"></div>
+    <div class="box navbox-hidden" id="statsbox"></div>
+    <div class="box navbox-hidden" id="infobox"></div>
+    <div class="box">
+        <h5>PROGRESS</h5>
+        <div class="emojis" id="emojis"></div>
+    </div>
+    </p>
+
+    <button class="buttonthatclearslocalstorage" id="buttonthatclearslocalstorage">
+        button that clears localStorage</button>
+    <!-- TODO: turn the button that clears localStorage into a button that deletes your save file -->
+
+    <div class="searchboxes_container">
+        <div class="songdiv">
+            <input type="text" id="searchsong" placeholder="Search song">
+            <div id="songcontainer"></div>
+        </div>
+
+        <div class="gamediv">
+            <input type="text" id="searchgame" placeholder="Filter games">
+            <div id="gamecontainer"></div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <audio id="audioPlayer" src=""></audio>
+        <div style="display: inline-flex;">
+            🔊
+            <input id="volumeSlider" type="range" min="0" max="1" step="any">
+        </div>
+        <button class="playButton" id="playButton">▷</button>
+    </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,1616 @@
+{
+  "3ddotgameheroesbreakout": {
+    "game": "3D Dot Game Heroes",
+    "title": "Breakout",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "3dpinballspacecadettheme": {
+    "game": "3D Pinball: Space Cadet",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "adventuresoflolotheme": {
+    "game": "Adventures of Lolo",
+    "title": "Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "angrybirdstheme": {
+    "game": "Angry Birds",
+    "title": "Title",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "babaisyoucogispush": {
+    "game": "Baba is You",
+    "title": "Cog is Push",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "balatrotheme": {
+    "game": "Balatro",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "ballionairetheme": {
+    "game": "Ballionaire",
+    "title": "Main Theme",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "bopimo64": {
+    "game": "Bopimo!",
+    "title": "64",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "bowsersfurycrispclimbcastle": {
+    "game": "Bowser's Fury",
+    "title": "Crisp Climb Castle",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "bugfablesbeekingdom": {
+    "game": "Bug Fables: The Everlasting Sapling",
+    "title": "High Above, Bee Kingdom!",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "bugfablesoutskirts": {
+    "game": "Bug Fables: The Everlasting Sapling",
+    "title": "Outskirts",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "cassettebeastssameoldstory": {
+    "game": "Cassette Beasts",
+    "title": "Same Old Story",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "cavestorymimigavillage": {
+    "game": "Cave Story",
+    "title": "Mimiga Village",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "cavestorytitle": {
+    "game": "Cave Story",
+    "title": "Title",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "celesteressurections": {
+    "game": "Celeste",
+    "title": "Ressurections",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "celestescatteredandlost": {
+    "game": "Celeste",
+    "title": "Scattered and Lost",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "clubpenguingadget": {
+    "game": "Club Penguin",
+    "title": "Gadget Room",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "clubpenguinicefishing": {
+    "game": "Club Penguin",
+    "title": "Ice Fishing",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "clubpenguinpizzaparlor": {
+    "game": "Club Penguin",
+    "title": "Pizza Parlor",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "clubpenguinpizzatron": {
+    "game": "Club Penguin",
+    "title": "Pizzatron 3000",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "clubpenguinepfgadgetroom": {
+    "game": "Club Penguin: Elite Penguin Force",
+    "title": "Gadget Room",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "clubpenguinepficefishing": {
+    "game": "Club Penguin: Elite Penguin Force",
+    "title": "Ice Fishing",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "clubhousegamesbackgammon": {
+    "game": "Clubhouse Games",
+    "title": "Backgammon",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "clubhousegamessodashake": {
+    "game": "Clubhouse Games",
+    "title": "Soda Shake",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "clubhousegamesswitch6ballpuzzle": {
+    "game": "Clubhouse Games: 51 Worldwide Classics",
+    "title": "6 Ball Puzzle",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "clubhousegamesswitchfourinarow": {
+    "game": "Clubhouse Games: 51 Worldwide Classics",
+    "title": "Four-in-a-Row",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "cobaltcoreselfdefense": {
+    "game": "Cobalt Core",
+    "title": "Self-Defense",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "croclegendofthegobbostitle": {
+    "game": "Croc: Legend of the Gobbos",
+    "title": "Title",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "cupheaddontdealwiththedevil": {
+    "game": "Cuphead",
+    "title": "Don't Deal with the Devil",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "cupheadfloralfury": {
+    "game": "Cuphead",
+    "title": "Floral Fury",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "cupheadinkwellislethree": {
+    "game": "Cuphead",
+    "title": "Inkwell Isle Three",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "daytonausaletsgoaway": {
+    "game": "Daytona USA (2011)",
+    "title": "Let's Go Away",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "drtcfrankensteingoestocanada": {
+    "game": "Death Road to Canada",
+    "title": "Frankenstein Goes to Jamaica",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "deltarunekillerqueen": {
+    "game": "Deltarune",
+    "title": "Attack of the Killer Queen",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "deltarunehopesanddreams": {
+    "game": "Deltarune",
+    "title": "Field of Hopes and Dreams",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "deltarunehipshop": {
+    "game": "Deltarune",
+    "title": "Hip Shop",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "discoelysiumecstaticvibrations": {
+    "game": "Disco Elysium",
+    "title": "Ecstatic Vibrations, Totally Transcendent",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "discoelysiumwhirlinginrags8am": {
+    "game": "Disco Elysium",
+    "title": "Whirling-in-Rags (Day)",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "ducktalesmoon": {
+    "game": "Disney's DuckTales",
+    "title": "The Moon",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "doomsgate": {
+    "game": "Doom",
+    "title": "At Doom's Gate",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "drmariochill": {
+    "game": "Dr. Mario",
+    "title": "Chill",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "drmariofever": {
+    "game": "Dr. Mario",
+    "title": "Fever",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "drmario64cube": {
+    "game": "Dr. Mario 64",
+    "title": "Cube",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "eldenringgodskinapostles": {
+    "game": "Elden Ring",
+    "title": "Godskin Apostles",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "fezhome": {
+    "game": "FEZ",
+    "title": "Home",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "fallguyseverybodyfalls": {
+    "game": "Fall Guys",
+    "title": "Everybody Falls",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "fallguysfinalfall": {
+    "game": "Fall Guys",
+    "title": "Final Fall",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "ff7fightforusstampbattle": {
+    "game": "Final Fantasy VII",
+    "title": "Fight for Us Stamp \u2013 Battle Version",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "freakyformsdxbattle": {
+    "game": "Freakyforms Deluxe: Your Creations, Alive!",
+    "title": "Battle!",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "hadeslamentoforpheus": {
+    "game": "Hades",
+    "title": "Lament of Orpheus",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mikuievanpolkka": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "Ievan Polkka",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mikulukalukanightfever": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "Luka Luka Night Fever",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mikumelt": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "Melt",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mikumikunishiteageru": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "Miku Miku ni Shite Ageru",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mikupoppippo": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "Poppippo",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mikudisappearance": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "The Disappearance of Hatsune Miku",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mikuworldismine": {
+    "game": "Hatsune Miku: Project DIVA",
+    "title": "World is Mine",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mikurollinggirl": {
+    "game": "Hatsune Miku: Project DIVA Dreamy Theater Extend",
+    "title": "Rolling Girl",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "heypikminsector5": {
+    "game": "Hey! Pikmin",
+    "title": "Sector 5",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "humanresourcemachinetheme": {
+    "game": "Human Resource Machine",
+    "title": "Human Resource Machine",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "inscryptiong0llysthemeuploading": {
+    "game": "Inscryption",
+    "title": "G0lly's Theme (Uploading)",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "inscryptiontempleofmagicks": {
+    "game": "Inscryption",
+    "title": "Temple of Magicks",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "inscryptionscrybeofmagicks": {
+    "game": "Inscryption",
+    "title": "The Scrybe of Magicks",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "inscryptiontempleofthedead": {
+    "game": "Inscryption",
+    "title": "The Temple of the Dead",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "jazzjackrabbit2diamondus": {
+    "game": "Jazz Jackrabbit 2",
+    "title": "Diamondus Remix",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "katadamaontherocks": {
+    "game": "Katamari Damacy",
+    "title": "Katamari on the Rocks",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "katadamaswing": {
+    "game": "Katamari Damacy",
+    "title": "Katamari on the Swing",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "katadamalonelyrollingstar": {
+    "game": "Katamari Damacy",
+    "title": "Lonely Rolling Star",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "katadamayouaresmart": {
+    "game": "Katamari Damacy",
+    "title": "You Are Smart",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mojipittandsbedtimepuzzler": {
+    "game": "Kotoba no Puzzle: Mojipittan DS",
+    "title": "Bedtime Puzzler",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mojipittandsfutarinomojipittan": {
+    "game": "Kotoba no Puzzle: Mojipittan DS",
+    "title": "Futari no Mojipittan",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "lethalcompanyboombox5": {
+    "game": "Lethal Company",
+    "title": "Boombox 5",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "lethalcompanydelivery": {
+    "game": "Lethal Company",
+    "title": "Delivery",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "limbuscompany": {
+    "game": "Limbus Company",
+    "title": "Wuthering Opus 2",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "lobotomycorpwelcomemanager": {
+    "game": "Lobotomy Corporation",
+    "title": "Welcome, Manager",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "lovelyplanetlovelymountain": {
+    "game": "Lovely Planet",
+    "title": "Lovely Mountain",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mahjongsoulsakura": {
+    "game": "Mahjong Soul",
+    "title": "Sakura",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mlbisplackbeach": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "title": "Beachside Dreaming",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mlbispersistantjoy": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "title": "Persistant Joy",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mlbispumpitup": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "title": "Pump It Up",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mlbiscastledepths": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "title": "The Castle Depths",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mlbisfinalbossbattle": {
+    "game": "Mario & Luigi: Bowser's Inside Story",
+    "title": "The Grand Finale",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mlpittoadtown": {
+    "game": "Mario & Luigi: Partners in Time",
+    "title": "Toad Town",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mlssbeanishpeople": {
+    "game": "Mario & Luigi: Superstar Saga",
+    "title": "Beanish People",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mk64frappesnowland": {
+    "game": "Mario Kart 64",
+    "title": "Frappe Snowland",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mk64rainbowroad": {
+    "game": "Mario Kart 64",
+    "title": "Rainbow Road",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mk7rosalinasiceworld": {
+    "game": "Mario Kart 7",
+    "title": "Rosalina's Ice World",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mk8electrodrome": {
+    "game": "Mario Kart 8",
+    "title": "Electrodrome",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mk8iceiceoutpost": {
+    "game": "Mario Kart 8",
+    "title": "Ice Ice Outpost",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mk8superbellsubway": {
+    "game": "Mario Kart 8",
+    "title": "Super Bell Subway",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkdsairshipfortress": {
+    "game": "Mario Kart DS",
+    "title": "Airship Fortress",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkdsbattle": {
+    "game": "Mario Kart DS",
+    "title": "Battle Mode",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkdsdelfinosquare": {
+    "game": "Mario Kart DS",
+    "title": "Delfino Square",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkdspeachgardens": {
+    "game": "Mario Kart DS",
+    "title": "Peach Gardens",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mktoursqueakycleansprint": {
+    "game": "Mario Kart Tour",
+    "title": "Squeaky Clean Sprint",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkwrainbowroad": {
+    "game": "Mario Kart Wii",
+    "title": "Rainbow Road",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkworldrainbowroad1": {
+    "game": "Mario Kart World",
+    "title": "Rainbow Road (Section 1)",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkworldrainbowroad4": {
+    "game": "Mario Kart World",
+    "title": "Rainbow Road (Section 4)",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkddrainbowroad": {
+    "game": "Mario Kart: Double Dash!!",
+    "title": "Rainbow Road",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkddsherbetland": {
+    "game": "Mario Kart: Double Dash!!",
+    "title": "Sherbet Land",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mkscshyguybeach": {
+    "game": "Mario Kart: Super Circuit",
+    "title": "Shy Guy Beach",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mkscskygarden": {
+    "game": "Mario Kart: Super Circuit",
+    "title": "Sky Garden",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mp1mariosrainbowcastle": {
+    "game": "Mario Party",
+    "title": "Mario's Rainbow Castle",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mp2blueskiesyonder": {
+    "game": "Mario Party 2",
+    "title": "The Blue Skies Yonder",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mp3donthurry": {
+    "game": "Mario Party 3",
+    "title": "Don't Hurry",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mp4fortunesturn": {
+    "game": "Mario Party 4",
+    "title": "Fortunes Turn",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mp5readyok": {
+    "game": "Mario Party 5",
+    "title": "Ready... OK",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "mp8howtoplay": {
+    "game": "Mario Party 8",
+    "title": "How To Play (Minigames)",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "mpdswigglersgarden": {
+    "game": "Mario Party DS",
+    "title": "Wiggler's Garden",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "megaman2drwily": {
+    "game": "Mega Man 2",
+    "title": "Dr. Wily's Castle",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "miitopiabattlefey": {
+    "game": "Miitopia",
+    "title": "Battle: Realm of the Fey",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "miitopiaboss3": {
+    "game": "Miitopia",
+    "title": "Boss Battle III",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "miitopiatitlepowderedpeaks": {
+    "game": "Miitopia",
+    "title": "Title (Powdered Peaks)",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "minecraftcat": {
+    "game": "Minecraft",
+    "title": "Cat",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "minecraftchirp": {
+    "game": "Minecraft",
+    "title": "Chirp",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "minecraftmiceonvenus": {
+    "game": "Minecraft",
+    "title": "Mice on Venus",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "minecraftotherside": {
+    "game": "Minecraft",
+    "title": "Otherside",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nesclassicmenu": {
+    "game": "NES Classic Edition BIOS",
+    "title": "Menu",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nekoatsumetheme": {
+    "game": "Neko Atsume: Kitty Collector",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nsmbmegamushroom": {
+    "game": "New Super Mario Bros.",
+    "title": "Mega Mushroom",
+    "numbers": "0122222",
+    "source": {}
+  },
+  "nsmbuworldmap": {
+    "game": "New Super Mario Bros. U",
+    "title": "World Map",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "nsmbwbeach": {
+    "game": "New Super Mario Bros. Wii",
+    "title": "Beach",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nsmbwdesert": {
+    "game": "New Super Mario Bros. Wii",
+    "title": "Desert",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nsmbwworld1": {
+    "game": "New Super Mario Bros. Wii",
+    "title": "World 1",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "nightinthewoodsfindingbea": {
+    "game": "Night in the Woods",
+    "title": "Finding Bea",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "dsishop": {
+    "game": "Nintendo DSi BIOS",
+    "title": "DSi Shop",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "wiicheckmiiout": {
+    "game": "Nintendo Wii BIOS",
+    "title": "Check Mii Out",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "wiieverybodyvotes": {
+    "game": "Nintendo Wii BIOS",
+    "title": "Everybody Votes",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "wiimiimaker": {
+    "game": "Nintendo Wii BIOS",
+    "title": "Mii Maker",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "wiishop": {
+    "game": "Nintendo Wii BIOS",
+    "title": "Wii Shop",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "oneshotalula": {
+    "game": "OneShot",
+    "title": "Alula",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "outerwildsendtimes": {
+    "game": "Outer Wilds",
+    "title": "End Times",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "outerwildstraveller": {
+    "game": "Outer Wilds",
+    "title": "Travellers' Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "overwatchtitle": {
+    "game": "Overwatch",
+    "title": "Title",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "overwatchvictory": {
+    "game": "Overwatch",
+    "title": "Victory",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "paperspleasetheme": {
+    "game": "Papers, Please",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "peggletrack2": {
+    "game": "Peggle",
+    "title": "Level 2-3",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "aceattorneycourt": {
+    "game": "Phoenix Wright: Ace Attorney",
+    "title": "Court is Now in Session",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "aceattorneycrossexamination": {
+    "game": "Phoenix Wright: Ace Attorney",
+    "title": "Cross-Examination",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "aceattorneypursuit": {
+    "game": "Phoenix Wright: Ace Attorney",
+    "title": "Pursuit - Corner the Culprit",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "picross3d2challenge": {
+    "game": "Picross 3D: Round 2",
+    "title": "Challenge",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "picrossdstitle": {
+    "game": "Picross DS",
+    "title": "Title",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "pikminforestofhope": {
+    "game": "Pikmin",
+    "title": "The Forest of Hope",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmintodaysresults": {
+    "game": "Pikmin",
+    "title": "Today's Results",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmin2awakeningwood": {
+    "game": "Pikmin 2",
+    "title": "Awakening Wood",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmin2floraandfauna": {
+    "game": "Pikmin 2",
+    "title": "Flora and Fauna",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmin2perplexingpool": {
+    "game": "Pikmin 2",
+    "title": "Perplexing Pool",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pikmin2wistfulwild": {
+    "game": "Pikmin 2",
+    "title": "Wistful Wild",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pikmin3gardenofhope": {
+    "game": "Pikmin 3",
+    "title": "Garden of Hope",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmin3twilightriver": {
+    "game": "Pikmin 3",
+    "title": "Twilight River",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikmin4title": {
+    "game": "Pikmin 4",
+    "title": "Title",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pikunikufreemoney": {
+    "game": "Pikuniku",
+    "title": "Free Money",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pikunikuartist": {
+    "game": "Pikuniku",
+    "title": "The Artist's House",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pikunikushop": {
+    "game": "Pikuniku",
+    "title": "The Shop",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "plokbeach": {
+    "game": "Plok",
+    "title": "Beach",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pokemongen3pokemart": {
+    "game": "Pok\u00e9mon Ruby & Sapphire & Emerald",
+    "title": "Pok\u00e9mart",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "pokemongen9battleeast": {
+    "game": "Pok\u00e9mon Scarlet & Violet",
+    "title": "Battle! (Eastern Pok\u00e9mon) (it's in 11/4)",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "pokemongen9battleruin": {
+    "game": "Pok\u00e9mon Scarlet & Violet",
+    "title": "Battle! (Treasures of Ruin)",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "portalradio": {
+    "game": "Portal",
+    "title": "Radio",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "portalstillalive": {
+    "game": "Portal",
+    "title": "Still Alive",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "portal2caramiaaddio": {
+    "game": "Portal 2",
+    "title": "Cara Mia Addio",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "portal2wantyougone": {
+    "game": "Portal 2",
+    "title": "Want You Gone",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "raymanoriginsglaciercocktail": {
+    "game": "Rayman Origins",
+    "title": "Glacier Cocktail (Gourmand Land)",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "rhythmheavenlockstep": {
+    "game": "Rhythm Heaven",
+    "title": "Lockstep",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "rimworldtriumph": {
+    "game": "RimWorld",
+    "title": "Triumph",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "scribblenautsshore3": {
+    "game": "Scribblenauts",
+    "title": "Shore 3",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "scribblenautstitle": {
+    "game": "Scribblenauts",
+    "title": "Title",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "slaythespirecity": {
+    "game": "Slay the Spire",
+    "title": "City",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "slaythespireexordium": {
+    "game": "Slay the Spire",
+    "title": "Exordium",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sonicadventure2cityescape": {
+    "game": "Sonic Adventure 2",
+    "title": "Escape from the City",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "soniclostworldjuicearchipelago": {
+    "game": "Sonic Lost World",
+    "title": "Juice Archipelago",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "sonicrcanyoufeelthesunshine": {
+    "game": "Sonic R",
+    "title": "Can You Feel the Sunshine",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sthgreenhillzone": {
+    "game": "Sonic the Hedgehog",
+    "title": "Green Hill Zone",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sth3angelislandzone": {
+    "game": "Sonic the Hedgehog 3",
+    "title": "Angel Island Zone",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "sth3icecapzone": {
+    "game": "Sonic the Hedgehog 3",
+    "title": "Ice Cap Zone",
+    "numbers": "0122222",
+    "source": {}
+  },
+  "spelunkyeggplant": {
+    "game": "Spelunky",
+    "title": "Eggplant",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "stardewvalleycomesalive": {
+    "game": "Stardew Valley",
+    "title": "The Valley Comes Alive",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "stardewtropicala": {
+    "game": "Stardew Valley",
+    "title": "Tropicala",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "slarpggreenridge": {
+    "game": "Super Lesbian Animal RPG",
+    "title": "Greenridge",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "slarpgshroudedpast": {
+    "game": "Super Lesbian Animal RPG",
+    "title": "Shrouded Past",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "slarpgsteadfaststripe": {
+    "game": "Super Lesbian Animal RPG",
+    "title": "Steadfast Stripe",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "slarpgswornguardian": {
+    "game": "Super Lesbian Animal RPG",
+    "title": "Sworn Guardian",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "slarpguntamedart": {
+    "game": "Super Lesbian Animal RPG",
+    "title": "Untamed Art",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sm3dlbeach": {
+    "game": "Super Mario 3D Land",
+    "title": "Beach",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "sm3dlsnowballpark": {
+    "game": "Super Mario 3D Land",
+    "title": "Snowball Park",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sm3dwbeach": {
+    "game": "Super Mario 3D World",
+    "title": "Beach",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "sm3dwdoublecherrypass": {
+    "game": "Super Mario 3D World",
+    "title": "Double Cherry Pass",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sm3dwworld1": {
+    "game": "Super Mario 3D World",
+    "title": "World 1",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "sm64opening": {
+    "game": "Super Mario 64",
+    "title": "Opening",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "smbcastle": {
+    "game": "Super Mario Bros.",
+    "title": "Castle",
+    "numbers": "0122222",
+    "source": {}
+  },
+  "smb35title": {
+    "game": "Super Mario Bros. 35",
+    "title": "Title Screen",
+    "numbers": "0123333",
+    "source": {}
+  },
+  "smbdxcredits": {
+    "game": "Super Mario Bros. Deluxe",
+    "title": "Credits",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smgbeachbowlgalaxy": {
+    "game": "Super Mario Galaxy",
+    "title": "Beach Bowl Galaxy",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smggoodegggalaxy": {
+    "game": "Super Mario Galaxy",
+    "title": "Good Egg Galaxy",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smg2cosmiccovegalaxy": {
+    "game": "Super Mario Galaxy 2",
+    "title": "Cosmic Cove Galaxy",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smkrainbowroad": {
+    "game": "Super Mario Kart",
+    "title": "Rainbow Road",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smmtitle": {
+    "game": "Super Mario Maker",
+    "title": "Title Screen",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "smm2smb3snow": {
+    "game": "Super Mario Maker 2",
+    "title": "SMB3 - Snow",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "smm2smwdesert": {
+    "game": "Super Mario Maker 2",
+    "title": "SMW \u2013 Desert",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "smobreakfreeleadtheway": {
+    "game": "Super Mario Odyssey",
+    "title": "Break Free (Lead the Way)",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smofossilfalls": {
+    "game": "Super Mario Odyssey",
+    "title": "Fossil Falls",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smolakelamode": {
+    "game": "Super Mario Odyssey",
+    "title": "Lake Lamode",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smoperonzaplaza": {
+    "game": "Super Mario Odyssey",
+    "title": "Peronza Plaza",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smosteamgardens": {
+    "game": "Super Mario Odyssey",
+    "title": "Steam Gardens",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smpfinalresults": {
+    "game": "Super Mario Party",
+    "title": "Final Results",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "smpjrainbowgalleria1": {
+    "game": "Super Mario Party Jamboree",
+    "title": "Rainbow Galleria 1!",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "smwunderwater": {
+    "game": "Super Mario World",
+    "title": "Underwater",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "smwvanilladome": {
+    "game": "Super Mario World",
+    "title": "Vanilla Dome",
+    "numbers": "0123333",
+    "source": {}
+  },
+  "snesclassicmenu": {
+    "game": "Super NES Classic Edition BIOS",
+    "title": "Menu",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "superpapermarioflipside": {
+    "game": "Super Paper Mario",
+    "title": "Flipside",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "ssbutitle": {
+    "game": "Super Smash Bros. Ultimate",
+    "title": "",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "ssbuhallanddalarna": {
+    "game": "Super Smash Bros. Ultimate",
+    "title": "Halland / Dalarna",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "swapnotetheme": {
+    "game": "Swapnote",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "tunicsunsetbreakfast": {
+    "game": "TUNIC",
+    "title": "Sunset Breakfast",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "tunictheheir": {
+    "game": "TUNIC",
+    "title": "The Heir",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "terrariacorruption": {
+    "game": "Terraria",
+    "title": "Corruption",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "terrariaday": {
+    "game": "Terraria",
+    "title": "Day",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "terrariamushrooms": {
+    "game": "Terraria",
+    "title": "Mushrooms",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "terrariatownday": {
+    "game": "Terraria",
+    "title": "Town Day",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "tetrisgbtypea": {
+    "game": "Tetris (Game Boy)",
+    "title": "Type A",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "tetrisgbtypeb": {
+    "game": "Tetris (Game Boy)",
+    "title": "Type B",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "denpamen2coliseum": {
+    "game": "The Denpa Men 2: Beyond the Waves",
+    "title": "Coliseum",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denpamen2elegy": {
+    "game": "The Denpa Men 2: Beyond the Waves",
+    "title": "Elegy",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denpamen2house": {
+    "game": "The Denpa Men 2: Beyond the Waves",
+    "title": "House",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denpamen3antenna": {
+    "game": "The Denpa Men 3: The Rise of Digitoll",
+    "title": "Antenna",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denpamencomputer": {
+    "game": "The Denpa Men: They Came by Wave",
+    "title": "Computer",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denpamenisland": {
+    "game": "The Denpa Men: They Came by Wave",
+    "title": "Denpa Island",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "denmpamentitle": {
+    "game": "The Denpa Men: They Came by Wave",
+    "title": "Title",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "jackbox4triviamurderlist": {
+    "game": "The Jackbox Party Pack 4",
+    "title": "Trivia Murder Party - List of the Dead",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "jackbox7fibbagecredits": {
+    "game": "The Jackbox Party Pack 7",
+    "title": "Fibbage 3 - Credits",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "jackbox7quiplashlobby": {
+    "game": "The Jackbox Party Pack 7",
+    "title": "Quiplash 3 - Lobby",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "lozalttpfileselect": {
+    "game": "The Legend of Zelda: A Link to the Past",
+    "title": "File Select",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozmmastralobservatory": {
+    "game": "The Legend of Zelda: Majora's Mask",
+    "title": "Astral Observatory",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootgerudovalley": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Gerudo Valley",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "lozoothouse": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "House",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootkakarikovillage": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Kakariko Village",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootkokiriforest": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Kokiri Forest",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "lozootlonlonranch": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Lon Lon Ranch",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootshootinggallery": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Shooting Gallery",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "lozootshop": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Shop",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootwindmillhut": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Windmill Hut",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozootzorasdomain": {
+    "game": "The Legend of Zelda: Ocarina of Time",
+    "title": "Zora's Domain",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozwwdeparture": {
+    "game": "The Legend of Zelda: The Wind Waker",
+    "title": "Departure",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozwwocean": {
+    "game": "The Legend of Zelda: The Wind Waker",
+    "title": "Ocean",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozwwoutsetisland": {
+    "game": "The Legend of Zelda: The Wind Waker",
+    "title": "Outset Island",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "lozwwwindfallisland": {
+    "game": "The Legend of Zelda: The Wind Waker",
+    "title": "Windfall Island",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "sims3theme": {
+    "game": "The Sims 3",
+    "title": "Main Theme",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "stanleyparableelevator": {
+    "game": "The Stanley Parable",
+    "title": "Elevator",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "stanleyparableadventurelinetm": {
+    "game": "The Stanley Parable",
+    "title": "The Adventure Line\u2122",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "stanleyparabledxgoodjob": {
+    "game": "The Stanley Parable: Ultra Deluxe",
+    "title": "Good Job. You\u2019ve Made It To The Bottom of The Mind Control Facility. Well Done.",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "tinywingstheme": {
+    "game": "Tiny Wings",
+    "title": "Main Theme",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "tomodachilifecooking": {
+    "game": "Tomodachi Life",
+    "title": "Cooking",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "tomodachilifeday": {
+    "game": "Tomodachi Life",
+    "title": "Day",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "tomodachimiigame": {
+    "game": "Tomodachi Life",
+    "title": "Mii Minigame",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "tomodachilifenight": {
+    "game": "Tomodachi Life",
+    "title": "Night",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "touhou6unowenwasher": {
+    "game": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
+    "title": "U. N. Owen Was Her?",
+    "numbers": "0123444",
+    "source": {}
+  },
+  "ufo50devilitiondetonation": {
+    "game": "UFO 50",
+    "title": "Devilition - Detonation",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "ufo50devilitionplan": {
+    "game": "UFO 50",
+    "title": "Devilition - Plan",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "ufo50mooncatforesta": {
+    "game": "UFO 50",
+    "title": "Mooncat - Forest A",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "ufo50oniondelivery": {
+    "game": "UFO 50",
+    "title": "Onion Delivery - Day",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "ufo50mainmenu": {
+    "game": "UFO 50",
+    "title": "UFO 50",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "undertalehopesanddreams": {
+    "game": "Undertale",
+    "title": "Hopes and Dreams",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "wariowarediyshipping": {
+    "game": "WarioWare D.I.Y.",
+    "title": "Shipping",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "wariowaresmoothmovesformbaton": {
+    "game": "WarioWare: Smooth Moves",
+    "title": "Form Baton",
+    "numbers": "0123333",
+    "source": {}
+  },
+  "wiifitobstaclecourse": {
+    "game": "Wii Fit Plus",
+    "title": "Obstacle Course",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "yakuza5bakamitai": {
+    "game": "Yakuza 5",
+    "title": "Baka Mitai",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "yoshisnewislandflowergarden": {
+    "game": "Yoshi's New Island",
+    "title": "Flower Garden",
+    "numbers": "0123455",
+    "source": {}
+  },
+  "yoshiswoollyworldknittyknottywindmill": {
+    "game": "Yoshi's Woolly World",
+    "title": "Knitty-Knotty Windmill",
+    "numbers": "5555555",
+    "source": {}
+  },
+  "yoshiswoollyworldshybutdeadly": {
+    "game": "Yoshi's Woolly World",
+    "title": "Shy But Deadly",
+    "numbers": "5555555",
+    "source": {}
+  }
+}
